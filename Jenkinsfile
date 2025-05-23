@@ -10,7 +10,7 @@ pipeline{
                     echo "this is my 2nd pipeline job"
                 }
             }
-            stage("any_name"){
+            stage('any_name'){
                 steps{
                     echo "this is my 3rd pipeline job"
                 }
