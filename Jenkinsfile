@@ -4,6 +4,7 @@ pipeline{
             stage('checkout code'){
                 steps{
                     echo " this is my first pipeline job"
+                }
             }
             stage('build') {
                 steps{
