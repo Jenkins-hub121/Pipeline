@@ -11,14 +11,14 @@ pipeline {
     stages {
         stage('CHECKOUT') {
             steps {
-                echo "GROOVY ----> BRANCH: ${params.BRNACH_NAME}"
+                echo "GROOVY ----> BRANCH: ${params.BRANCH_NAME}"
                 
                 script {
-                    echo "GROOVY ----> BRANCH: ${params.BRNACH_NAME}"
+                    echo "GROOVY ----> BRANCH: ${params.BRANCH_NAME}"
                 }
               
                 sh '''
-                    echo "SHELL ----> BRANCH: $BRNACH_NAME"
+                    echo "SHELL ----> BRANCH: $BRANCH_NAME"
                 '''
             }
         }
