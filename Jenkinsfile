@@ -12,12 +12,10 @@ pipeline{
                     echo "this is my first pipeline job"
                 }
             }
-     stage('Any_name'){
+            stage('Any_name'){
                 steps{
                     echo "this is my first pipeline job"
+                    }
                 }
             }
-            }
         }
-    }
-}
